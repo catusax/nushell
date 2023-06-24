@@ -1,4 +1,6 @@
-let-env PATH = ($env.PATH | append /usr/local/bin)
+if ( sys | get host | get name) != "Windows"  {
+    let-env PATH = ($env.PATH | append /usr/local/bin)
+}
 
 source envs/clash.nu
 source envs/starship.nu
