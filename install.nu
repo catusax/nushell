@@ -13,3 +13,6 @@ if not (open $nu.env-path | str contains $"source ($env.PWD)/env.nu" ) {
 mkdir ~/.cache/starship
 starship init nu | save -f ~/.cache/starship/init.nu
 cp starship.toml ~/.config/starship.toml
+
+mkdir ~/.cache/carapace
+carapace _carapace nushell | save --force ~/.cache/carapace/init.nu
