@@ -3,7 +3,7 @@ source ~/.cache/carapace/init.nu
 #   carapace $spans.0 nushell $spans | from json
 # }
 
-# let-env config = {
+# $env.config = {
 #   completions: {
 #     external: {
 #       enable: true
@@ -19,7 +19,7 @@ source ~/.cache/carapace/init.nu
 #   } | get $spans.0 | each {|it| do $it}
 # }
 
-# let-env config = {
+# $env.config = {
 #   completions: {
 #     external: {
 #       enable: true

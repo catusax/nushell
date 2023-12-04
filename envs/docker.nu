@@ -1,1 +1,1 @@
-let-env DOCKER_HOST = "ssh://demo@192.168.11.75"
+$env.DOCKER_HOST = "ssh://demo@192.168.11.75"
