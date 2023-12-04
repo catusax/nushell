@@ -3,7 +3,6 @@ if ( sys | get host | get name) != "Windows"  {
 }
 
 source envs/clash.nu
-source envs/starship.nu
 source envs/brew.nu
 source envs/go.nu
 source envs/krew.nu
