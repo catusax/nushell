@@ -1,3 +1,2 @@
-if ( sys | get host | get name) != "Windows"  {
-    $env.PATH = ($env.PATH | append $"($env.HOME)/go/bin")
-}
+
+$env.PATH = ($env.PATH | append $"($env.HOME)/go/bin")
